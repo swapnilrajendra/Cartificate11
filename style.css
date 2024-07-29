@@ -5,10 +5,11 @@
 
 }
 @font-face {
-    font-family: sw;
-    src: url("GreatVibes-Regular.ttf");
-
+    font-family: shinde;
+    src: url(fonts/Great_Vibes,Sevillana/Sevillana/Sevillana-Regular.ttf);
 }
+
+
 
 
 
@@ -50,15 +51,15 @@
     
 }
 .certificate-wrapper .certificate-background .rectbtm {
-    top: 257mm;
+    top: 262mm;
     width: 210mm;
-    height: 40mm;
+    height: 35mm;
     background: black;
     position: absolute;    
 }
 .bottombox {
     right: 0mm;
-    bottom: 40mm;
+    bottom: 35mm;
     width: 210mm;
     height: 5mm;
     background: goldenrod;
@@ -90,10 +91,10 @@
     font-size: 42pt;
     text-align: center;
     text-transform: uppercase;
-
+    border-bottom: 3px solid black;
 }
 .certificate-wrapper .certificate-content .para {
-    top: 101mm;
+    top: 114mm;
     position: absolute;
     left: 44mm;
     font-size: 15pt;
@@ -101,18 +102,19 @@
     text-transform: uppercase;
 }
 .certificate-wrapper .certificate-content .candidate-name {
-    top: 112mm;
+    top: 130mm;
     position: absolute;
-    left: 16mm;
-    font-size: 28pt;
+    left: 23mm;
+    font-size: 36pt;
     text-align: center;
     text-transform: uppercase;
-    font-family: sw;
+    border-bottom: 3px solid black;
+    font-family: shinde;
 }
 .certificate-wrapper .certificate-content .main-content {
     position: absolute;
-    left: 20mm;
-    top: 127mm;
+    left: 13mm;
+    top: 150mm;
     right: 15mm;
     font-size: 14pt;
     text-align: center;
@@ -138,7 +140,7 @@ line-height: normal;
 
 .certificate-wrapper .certificate-content .certificate-logo {
     position: absolute;
-    top: 161mm;
+    top: 177mm;
     left: auto;
     right: 68mm;
     z-index: 1;
@@ -161,7 +163,7 @@ line-height: normal;
 }
 .certificate-wrapper .certificate-content .sign-president {
     left: -5mm;
-    top: 179mm;
+    top: 198mm;
     font-size: 11pt;
     border-top: 2px solid;
     line-height: 6mm;
@@ -171,7 +173,7 @@ line-height: normal;
 }
 .certificate-wrapper .certificate-content .sign-of-directore {
     left: 119mm;
-    top: 179mm;
+    top: 198mm;
     font-size: 11pt;
     border-top: 2px solid;
     line-height: 6mm;
@@ -179,7 +181,25 @@ line-height: normal;
     text-transform: uppercase;
     color: black;
 }
+.certificate-wrapper .certificate-content .sign-logo-president {
+position: absolute;
+top: 180mm;
+left:-3mm ;
 
+}
+.certificate-wrapper .certificate-content .sign-logo-directore {
+    position: absolute;
+    top: 177mm;
+    left: 119mm;
+}
+.certificate-wrapper .certificate-content .sign-logo-president img {
+    height: 16mm;
+    width: 45mm;
+}
+.certificate-wrapper .certificate-content .sign-logo-directore img {
+    height: 16mm;
+    width: 45mm;
+}
 .certificate-wrapper .certificate-content .sr-no {
 
     top: -14mm;
@@ -189,6 +209,14 @@ line-height: normal;
     text-transform: uppercase;
     color: white;
 }
+.certificate-wrapper .certificate-content .organization-logo {
+    position: absolute;
+    top: -15mm;
+    left: 57mm;
+}
+
+
+
 
 
 
